@@ -17,7 +17,7 @@ $hello = "Hello";
 $name =  "Kotaro";
 $world = "'sWorld!";
 
-echo $hello,$name,$world;
+echo $hello.$name.$world;
 echo "\n";
 
 $tech_boost = "tech";
