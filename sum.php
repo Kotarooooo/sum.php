@@ -1,5 +1,5 @@
 <?php
-
+echo 'hello php!';
 function sum (){
     
     $result = 0;
@@ -35,26 +35,19 @@ function kakeru($arr) {
     
 }
 echo kakeru(array(1, 3, 5, 7, 9 )) . "\n";
-?>
 
-<?php
-
-function max_array($arr){
-    $max_number = $arr[0];
-    foreach($arr as $a){
-        
-        
-        
-        
-        
-   
-    
+function max_array($nums){
+  $max = 0;
+  foreach($nums as $num){
+    if( $max<$num ){
+      $max = $num;
     }
-    return $max_number;
+  }
+  return $max;
 }
-?>
+echo max_array(array(3, 11, 8, 9 ));
+ 
 
-<?php
 $str = "<h1>strip_tags関数</h1>"
   . "<p>タグを取り除く</p>";
 echo strip_tags($str) ."\n";
