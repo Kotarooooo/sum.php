@@ -71,6 +71,7 @@ for ($i = 0; $i <= 10000; $i++) {
 }
 echo $total;
 echo "\n";
-//$fruits = ("orange" "apple" "banana" "cherry" "grape");
-foreach($fruits as $fruits){
-  echo "要素は" , $fruits;
+$fruits = array("orange", "apple", "banana", "cherry", "grape");
+foreach($fruits as $fruit){
+  echo "要素は" . $fruit;
+}
